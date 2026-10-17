@@ -2,7 +2,7 @@
   "name": "dsh-mobile-adapt",
   "version": "1.9.4",
   "private": false,
-  "description": "手机端交互与可读性适配：抽屉式侧栏（滑动开合 + 可调宽度）、滑动手势、触控命中区、软键盘避让、正文字号下限。一个插件补齐移动端体验。Mobile interaction & readability layer: swipe drawer sidebar with adjustable width, gesture navigation, tap targets, keyboard avoidance and a readable font floor.",
+  "description": "侧栏变抽屉、手势开关、宽度可调、键盘不挡输入框、字号不小于 15px。把电脑版界面调成适合手指用的样子。A mobile-friendly layer for DSH Web: swipe drawer sidebar, adjustable width, keyboard avoidance and a readable font floor.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
