@@ -1,0 +1,8 @@
+# dsh-mobile-adapt 的 bundle patch
+#
+# 作为 npm 包 / bundle 安装时（profile 的 package.json 里把它列进 dsh.profile.bundles，
+# 或者用插件市场安装），这一行负责把它挂到 Loader 上。
+# 本地源码安装请改用仓库里的 install.sh —— 它写入的是相对路径行。
+- insert:
+    - id: mobile-adapt
+      name: dsh-mobile-adapt

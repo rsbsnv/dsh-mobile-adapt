@@ -1,0 +1,57 @@
+{
+  "name": "dsh-mobile-adapt",
+  "version": "1.9.4",
+  "private": false,
+  "description": "手机端交互与可读性适配：抽屉式侧栏（滑动开合 + 可调宽度）、滑动手势、触控命中区、软键盘避让、正文字号下限。一个插件补齐移动端体验。Mobile interaction & readability layer: swipe drawer sidebar with adjustable width, gesture navigation, tap targets, keyboard avoidance and a readable font floor.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-mobile",
+    "deepseek-harness",
+    "deepseek",
+    "mobile",
+    "android",
+    "phone",
+    "sidebar",
+    "drawer",
+    "swipe",
+    "gesture",
+    "touch",
+    "font-size",
+    "responsive",
+    "mobile-ui",
+    "移动端适配",
+    "手机端",
+    "侧边栏",
+    "手势"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "author": "dsh-mobile-adapt contributors"
+}
